@@ -1,0 +1,72 @@
+header, section, aside, footer, nav {
+   display: block;
+ }
+
+body * {
+   padding: 0;
+   margin: 0;
+} 
+
+body {
+   background-image: url(bg2.jpg);
+   font-family: Verdana, Geneva, sans-serif;
+}
+
+#container {
+   width: 1300px;
+   margin: 0 auto;
+   border-left: 1px black solid;
+   border-right: 1px black solid;
+   background-color: white;
+}
+
+h1 h2 h3 h4 h5 h6 {
+   color: hsl(212,0%,0%);
+   opacity: 0.4;
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   font-weight: normal;
+   letter-spacing: 5px;
+   text-indent: 5px;
+}
+
+#hnav {
+   text-align: center;
+   background-color: gray;
+}
+
+#hnav  a {
+   color: maroon;
+   font-size: larger;
+   text-decoration: none;
+}
+
+#hnav a:hover {
+   color: green;
+   
+}
+
+#main {
+   width: 80%;
+   float: left;
+   clear: right;
+}
+section {
+   text-align: center;
+}
+
+section p {
+   text-align: left;
+   margin: 5px 20px
+}
+
+aside {
+   float: left;
+   width: 20%;
+}
+
+footer {
+   clear: left;
+   font-size: 10px;
+   line-height: 30px;
+   text-align: center;
+}
