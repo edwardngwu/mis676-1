@@ -31,12 +31,13 @@ h1 h2 h3 h4 h5 h6 {
 
 #hnav {
    text-align: center;
-   background-color: gray;
+   background-color: white;
 }
 
 #hnav  a {
    color: maroon;
-   font-size: larger;
+   font-size: 14pt;
+   font-variant: small-caps;
    text-decoration: none;
 }
 
