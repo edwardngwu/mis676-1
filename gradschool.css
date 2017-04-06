@@ -8,7 +8,9 @@ body * {
 } 
 
 body {
-   background-image: url(bg2.jpg);
+   background-image: url(tsuLogo.png), url(bg2.jpg);
+   background-repeat:  no-repeat, repeat-x;
+   background-position: bottom right, 0 0;
    font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -29,7 +31,7 @@ header h1 {
 h1 h2 h3 h4 h5 h6 {
    color: hsl(212,0%,0%);
    opacity: 0.4;
-   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   font-family: 'Archivo Narrow', sans-serif;
    font-weight: normal;
    letter-spacing: 5px;
    text-indent: 5px;
